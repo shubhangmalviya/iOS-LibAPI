@@ -1,11 +1,3 @@
-//
-//  LibAPI.h
-//  LibAPI
-//
-//  Created by daffomac-14 on 11/3/16.
-//  Copyright © 2016 Shubhang. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 
 //! Project version number for LibAPI.

@@ -72,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				797746F81DE44ACA00727EA9 /* .gitignore */,
-				7940C9BB1DCB9D9200AF20CD /* LibNetwork */,
 				7940C99D1DCB949000AF20CD /* LibAPI */,
 				7940C9A81DCB949000AF20CD /* LibAPITests */,
 				7940C99C1DCB949000AF20CD /* Products */,
@@ -112,13 +111,6 @@
 				7940C9AB1DCB949000AF20CD /* Info.plist */,
 			);
 			path = LibAPITests;
-			sourceTree = "<group>";
-		};
-		7940C9BB1DCB9D9200AF20CD /* LibNetwork */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = LibNetwork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -2,7 +2,7 @@
  * Provides a mechanism to the user for mutating the error response received.
  * So as to customise the error received.
  */
-protocol ErrorResponseTransformer {
+public protocol ErrorResponseTransformer {
     
     /**
         Creates the instance.
