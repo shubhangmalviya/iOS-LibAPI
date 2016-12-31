@@ -2,8 +2,8 @@ class Notifier<T> {
     private let responseCallback: ResponseCallbackWrapper<T>
     private let errorLookupTable : ErrorLookupTable
     
-    init(callback: ResponseCallbackWrapper<T>, lookupTable: ErrorLookupTable) {
-        responseCallback = callback
+    init<U : ResponseCallback>(callback: U, lookupTable: ErrorLookupTable) where U.Response == T {
+        responseCallback = ResponseCallbackWrapper<T>(responseCallback: callback)
         errorLookupTable = lookupTable
     }
     
